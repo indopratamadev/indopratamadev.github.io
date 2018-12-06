@@ -1,0 +1,60 @@
+.page-enter-active, .page-leave-active {
+    transition: opacity 0.3s;
+  }
+.page-enter, .page-leave-to {
+    opacity: 0;
+}
+h1, h2, h3, h4, h5, p, .text{
+    font-family: 'Nunito', sans-serif;
+} 
+a{
+    text-decoration: none;
+    border: none
+}
+nuxt-link{
+    text-decoration: none;
+    border: none;
+}
+.a{
+    text-decoration: none;
+    border: none;
+}
+button{
+    background: transparent;
+    padding: 15px;
+    text-combine-upright: none;
+    border-radius: 30px 
+}
+button:focus{
+    outline: none;
+}
+button:hover{
+    background-color: rgba(184, 184, 184, 0.1);
+}
+button:active{
+    background-color: rgba(184, 184, 184, 0.1);
+    text-decoration: none;
+    border: none
+}
+.mheader{
+    background-image: url('header2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    box-shadow: 0px 3px 3px #9b9b9b;
+    margin-top: -65px;
+}
+.moverlay{
+    background-color: rgba(49, 108, 156, 0.7);
+    box-shadow: 0px 3px 3px #9b9b9b;
+    padding: 50px 0;
+}
+.mwhite{
+    padding: 80px 20px;
+}
+.mgrey{
+    padding: 80px 20px;
+    background-color: #f7f7f7;
+    border-top: solid #f1f1f1;
+    border-bottom: solid #f1f1f1;
+}
